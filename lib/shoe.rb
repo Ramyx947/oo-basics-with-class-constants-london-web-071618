@@ -12,7 +12,7 @@ BRANDS=[ ]
   end
   def shoe=(brand)
     @brand=shoe
-    BRANDS<<shoe
+    BRANDS << shoe
   end
 
 end
