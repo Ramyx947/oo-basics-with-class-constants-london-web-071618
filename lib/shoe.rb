@@ -10,7 +10,7 @@ BRANDS=[ ]
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  def brand=(shoe)
+  def shoe=(brand)
     @brand=shoe
     BRANDS<<shoe
   end
