@@ -5,7 +5,7 @@ class Shoe
 BRANDS=[ ]
 
   def initialize(brand)
-    @brand = brand
+    @brand = brand unless 
     
   end
 
@@ -13,9 +13,9 @@ BRANDS=[ ]
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  def brand=(brand)
-    @brand=brand.clear
-    BRANDS<< brand
-  end
+  # def brand=(brand)
+  #   @brand=brand.clear
+  #   BRANDS<< brand
+  # end
 
 end
